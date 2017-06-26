@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC0377871F00EF21002B2B4C /* GravityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0377861F00EF21002B2B4C /* GravityViewController.m */; };
+		EC7988621EFBB6C40076974C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7988611EFBB6C40076974C /* main.m */; };
+		EC7988651EFBB6C40076974C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7988641EFBB6C40076974C /* AppDelegate.m */; };
+		EC7988681EFBB6C40076974C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7988671EFBB6C40076974C /* ViewController.m */; };
+		EC79886B1EFBB6C40076974C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7988691EFBB6C40076974C /* Main.storyboard */; };
+		EC79886D1EFBB6C40076974C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC79886C1EFBB6C40076974C /* Assets.xcassets */; };
+		EC7988701EFBB6C40076974C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC79886E1EFBB6C40076974C /* LaunchScreen.storyboard */; };
+		EC79887B1EFBB6C40076974C /* AccelerometerAndGyroscopeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC79887A1EFBB6C40076974C /* AccelerometerAndGyroscopeDemoTests.m */; };
+		EC7988861EFBB6C40076974C /* AccelerometerAndGyroscopeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7988851EFBB6C40076974C /* AccelerometerAndGyroscopeDemoUITests.m */; };
+		EC7FA4281EFCF0A5001BE05D /* AccelerometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7FA4271EFCF0A5001BE05D /* AccelerometerViewController.m */; };
+		EC7FA42B1EFCF380001BE05D /* GyroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7FA42A1EFCF380001BE05D /* GyroViewController.m */; };
+		ECC067421F01001500B104AF /* MagnetometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC067411F01001500B104AF /* MagnetometerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC7988771EFBB6C40076974C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC7988551EFBB6C40076974C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC79885C1EFBB6C40076974C;
+			remoteInfo = AccelerometerAndGyroscopeDemo;
+		};
+		EC7988821EFBB6C40076974C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC7988551EFBB6C40076974C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC79885C1EFBB6C40076974C;
+			remoteInfo = AccelerometerAndGyroscopeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC0377851F00EF21002B2B4C /* GravityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GravityViewController.h; sourceTree = "<group>"; };
+		EC0377861F00EF21002B2B4C /* GravityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GravityViewController.m; sourceTree = "<group>"; };
+		EC79885D1EFBB6C40076974C /* AccelerometerAndGyroscopeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccelerometerAndGyroscopeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7988611EFBB6C40076974C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC7988631EFBB6C40076974C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC7988641EFBB6C40076974C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC7988661EFBB6C40076974C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC7988671EFBB6C40076974C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC79886A1EFBB6C40076974C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC79886C1EFBB6C40076974C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC79886F1EFBB6C40076974C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC7988711EFBB6C40076974C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC7988761EFBB6C40076974C /* AccelerometerAndGyroscopeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccelerometerAndGyroscopeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC79887A1EFBB6C40076974C /* AccelerometerAndGyroscopeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccelerometerAndGyroscopeDemoTests.m; sourceTree = "<group>"; };
+		EC79887C1EFBB6C40076974C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC7988811EFBB6C40076974C /* AccelerometerAndGyroscopeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccelerometerAndGyroscopeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7988851EFBB6C40076974C /* AccelerometerAndGyroscopeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccelerometerAndGyroscopeDemoUITests.m; sourceTree = "<group>"; };
+		EC7988871EFBB6C40076974C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC7988941EFBBAFC0076974C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EC7FA4261EFCF0A5001BE05D /* AccelerometerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerometerViewController.h; sourceTree = "<group>"; };
+		EC7FA4271EFCF0A5001BE05D /* AccelerometerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerometerViewController.m; sourceTree = "<group>"; };
+		EC7FA4291EFCF380001BE05D /* GyroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GyroViewController.h; sourceTree = "<group>"; };
+		EC7FA42A1EFCF380001BE05D /* GyroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GyroViewController.m; sourceTree = "<group>"; };
+		ECC067401F01001500B104AF /* MagnetometerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagnetometerViewController.h; sourceTree = "<group>"; };
+		ECC067411F01001500B104AF /* MagnetometerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagnetometerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC79885A1EFBB6C40076974C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7988731EFBB6C40076974C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC79887E1EFBB6C40076974C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC7988541EFBB6C40076974C = {
+			isa = PBXGroup;
+			children = (
+				EC79885F1EFBB6C40076974C /* AccelerometerAndGyroscopeDemo */,
+				EC7988791EFBB6C40076974C /* AccelerometerAndGyroscopeDemoTests */,
+				EC7988841EFBB6C40076974C /* AccelerometerAndGyroscopeDemoUITests */,
+				EC79885E1EFBB6C40076974C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC79885E1EFBB6C40076974C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC79885D1EFBB6C40076974C /* AccelerometerAndGyroscopeDemo.app */,
+				EC7988761EFBB6C40076974C /* AccelerometerAndGyroscopeDemoTests.xctest */,
+				EC7988811EFBB6C40076974C /* AccelerometerAndGyroscopeDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC79885F1EFBB6C40076974C /* AccelerometerAndGyroscopeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EC7988631EFBB6C40076974C /* AppDelegate.h */,
+				EC7988641EFBB6C40076974C /* AppDelegate.m */,
+				EC7988661EFBB6C40076974C /* ViewController.h */,
+				EC7988671EFBB6C40076974C /* ViewController.m */,
+				EC7FA4261EFCF0A5001BE05D /* AccelerometerViewController.h */,
+				EC7FA4271EFCF0A5001BE05D /* AccelerometerViewController.m */,
+				EC7FA4291EFCF380001BE05D /* GyroViewController.h */,
+				EC7FA42A1EFCF380001BE05D /* GyroViewController.m */,
+				EC0377851F00EF21002B2B4C /* GravityViewController.h */,
+				EC0377861F00EF21002B2B4C /* GravityViewController.m */,
+				ECC067401F01001500B104AF /* MagnetometerViewController.h */,
+				ECC067411F01001500B104AF /* MagnetometerViewController.m */,
+				EC7988941EFBBAFC0076974C /* PrefixHeader.pch */,
+				EC7988691EFBB6C40076974C /* Main.storyboard */,
+				EC79886C1EFBB6C40076974C /* Assets.xcassets */,
+				EC79886E1EFBB6C40076974C /* LaunchScreen.storyboard */,
+				EC7988711EFBB6C40076974C /* Info.plist */,
+				EC7988601EFBB6C40076974C /* Supporting Files */,
+			);
+			path = AccelerometerAndGyroscopeDemo;
+			sourceTree = "<group>";
+		};
+		EC7988601EFBB6C40076974C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC7988611EFBB6C40076974C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC7988791EFBB6C40076974C /* AccelerometerAndGyroscopeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC79887A1EFBB6C40076974C /* AccelerometerAndGyroscopeDemoTests.m */,
+				EC79887C1EFBB6C40076974C /* Info.plist */,
+			);
+			path = AccelerometerAndGyroscopeDemoTests;
+			sourceTree = "<group>";
+		};
+		EC7988841EFBB6C40076974C /* AccelerometerAndGyroscopeDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC7988851EFBB6C40076974C /* AccelerometerAndGyroscopeDemoUITests.m */,
+				EC7988871EFBB6C40076974C /* Info.plist */,
+			);
+			path = AccelerometerAndGyroscopeDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC79885C1EFBB6C40076974C /* AccelerometerAndGyroscopeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC79888A1EFBB6C40076974C /* Build configuration list for PBXNativeTarget "AccelerometerAndGyroscopeDemo" */;
+			buildPhases = (
+				EC7988591EFBB6C40076974C /* Sources */,
+				EC79885A1EFBB6C40076974C /* Frameworks */,
+				EC79885B1EFBB6C40076974C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AccelerometerAndGyroscopeDemo;
+			productName = AccelerometerAndGyroscopeDemo;
+			productReference = EC79885D1EFBB6C40076974C /* AccelerometerAndGyroscopeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC7988751EFBB6C40076974C /* AccelerometerAndGyroscopeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC79888D1EFBB6C40076974C /* Build configuration list for PBXNativeTarget "AccelerometerAndGyroscopeDemoTests" */;
+			buildPhases = (
+				EC7988721EFBB6C40076974C /* Sources */,
+				EC7988731EFBB6C40076974C /* Frameworks */,
+				EC7988741EFBB6C40076974C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC7988781EFBB6C40076974C /* PBXTargetDependency */,
+			);
+			name = AccelerometerAndGyroscopeDemoTests;
+			productName = AccelerometerAndGyroscopeDemoTests;
+			productReference = EC7988761EFBB6C40076974C /* AccelerometerAndGyroscopeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC7988801EFBB6C40076974C /* AccelerometerAndGyroscopeDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7988901EFBB6C40076974C /* Build configuration list for PBXNativeTarget "AccelerometerAndGyroscopeDemoUITests" */;
+			buildPhases = (
+				EC79887D1EFBB6C40076974C /* Sources */,
+				EC79887E1EFBB6C40076974C /* Frameworks */,
+				EC79887F1EFBB6C40076974C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC7988831EFBB6C40076974C /* PBXTargetDependency */,
+			);
+			name = AccelerometerAndGyroscopeDemoUITests;
+			productName = AccelerometerAndGyroscopeDemoUITests;
+			productReference = EC7988811EFBB6C40076974C /* AccelerometerAndGyroscopeDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC7988551EFBB6C40076974C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = XiHeLaoBo;
+				TargetAttributes = {
+					EC79885C1EFBB6C40076974C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XU6CNWPAHG;
+						ProvisioningStyle = Automatic;
+					};
+					EC7988751EFBB6C40076974C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6LRKYFMPF5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC79885C1EFBB6C40076974C;
+					};
+					EC7988801EFBB6C40076974C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6LRKYFMPF5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC79885C1EFBB6C40076974C;
+					};
+				};
+			};
+			buildConfigurationList = EC7988581EFBB6C40076974C /* Build configuration list for PBXProject "AccelerometerAndGyroscopeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC7988541EFBB6C40076974C;
+			productRefGroup = EC79885E1EFBB6C40076974C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC79885C1EFBB6C40076974C /* AccelerometerAndGyroscopeDemo */,
+				EC7988751EFBB6C40076974C /* AccelerometerAndGyroscopeDemoTests */,
+				EC7988801EFBB6C40076974C /* AccelerometerAndGyroscopeDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC79885B1EFBB6C40076974C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7988701EFBB6C40076974C /* LaunchScreen.storyboard in Resources */,
+				EC79886D1EFBB6C40076974C /* Assets.xcassets in Resources */,
+				EC79886B1EFBB6C40076974C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7988741EFBB6C40076974C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC79887F1EFBB6C40076974C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC7988591EFBB6C40076974C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7988681EFBB6C40076974C /* ViewController.m in Sources */,
+				EC7988651EFBB6C40076974C /* AppDelegate.m in Sources */,
+				ECC067421F01001500B104AF /* MagnetometerViewController.m in Sources */,
+				EC7FA4281EFCF0A5001BE05D /* AccelerometerViewController.m in Sources */,
+				EC7988621EFBB6C40076974C /* main.m in Sources */,
+				EC7FA42B1EFCF380001BE05D /* GyroViewController.m in Sources */,
+				EC0377871F00EF21002B2B4C /* GravityViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7988721EFBB6C40076974C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC79887B1EFBB6C40076974C /* AccelerometerAndGyroscopeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC79887D1EFBB6C40076974C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7988861EFBB6C40076974C /* AccelerometerAndGyroscopeDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC7988781EFBB6C40076974C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC79885C1EFBB6C40076974C /* AccelerometerAndGyroscopeDemo */;
+			targetProxy = EC7988771EFBB6C40076974C /* PBXContainerItemProxy */;
+		};
+		EC7988831EFBB6C40076974C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC79885C1EFBB6C40076974C /* AccelerometerAndGyroscopeDemo */;
+			targetProxy = EC7988821EFBB6C40076974C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC7988691EFBB6C40076974C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC79886A1EFBB6C40076974C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC79886E1EFBB6C40076974C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC79886F1EFBB6C40076974C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC7988881EFBB6C40076974C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC7988891EFBB6C40076974C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC79888B1EFBB6C40076974C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XU6CNWPAHG;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AccelerometerAndGyroscopeDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = AccelerometerAndGyroscopeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XiHeLaoBo.AccelerometerAndGyroscopeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC79888C1EFBB6C40076974C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XU6CNWPAHG;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AccelerometerAndGyroscopeDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = AccelerometerAndGyroscopeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XiHeLaoBo.AccelerometerAndGyroscopeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC79888E1EFBB6C40076974C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6LRKYFMPF5;
+				INFOPLIST_FILE = AccelerometerAndGyroscopeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XiHeLaoBo.AccelerometerAndGyroscopeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccelerometerAndGyroscopeDemo.app/AccelerometerAndGyroscopeDemo";
+			};
+			name = Debug;
+		};
+		EC79888F1EFBB6C40076974C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6LRKYFMPF5;
+				INFOPLIST_FILE = AccelerometerAndGyroscopeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XiHeLaoBo.AccelerometerAndGyroscopeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccelerometerAndGyroscopeDemo.app/AccelerometerAndGyroscopeDemo";
+			};
+			name = Release;
+		};
+		EC7988911EFBB6C40076974C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6LRKYFMPF5;
+				INFOPLIST_FILE = AccelerometerAndGyroscopeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XiHeLaoBo.AccelerometerAndGyroscopeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AccelerometerAndGyroscopeDemo;
+			};
+			name = Debug;
+		};
+		EC7988921EFBB6C40076974C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6LRKYFMPF5;
+				INFOPLIST_FILE = AccelerometerAndGyroscopeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XiHeLaoBo.AccelerometerAndGyroscopeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AccelerometerAndGyroscopeDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC7988581EFBB6C40076974C /* Build configuration list for PBXProject "AccelerometerAndGyroscopeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7988881EFBB6C40076974C /* Debug */,
+				EC7988891EFBB6C40076974C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC79888A1EFBB6C40076974C /* Build configuration list for PBXNativeTarget "AccelerometerAndGyroscopeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC79888B1EFBB6C40076974C /* Debug */,
+				EC79888C1EFBB6C40076974C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC79888D1EFBB6C40076974C /* Build configuration list for PBXNativeTarget "AccelerometerAndGyroscopeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC79888E1EFBB6C40076974C /* Debug */,
+				EC79888F1EFBB6C40076974C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC7988901EFBB6C40076974C /* Build configuration list for PBXNativeTarget "AccelerometerAndGyroscopeDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7988911EFBB6C40076974C /* Debug */,
+				EC7988921EFBB6C40076974C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC7988551EFBB6C40076974C /* Project object */;
+}
